@@ -46,6 +46,13 @@ BinaryOperation* NewSingleBinOp(double value)
 BinaryOperation* NewStatementBinOp(BinaryOperation* left, BinaryOperation* right, BinOpCode op)
 ```
 
+BinOpCode - Binary Operation code to apply between the left and the right BinaryOperations
+BinOpClassType - Type of the Binary Operation class (Handled by the NewSingleBinOp and NewStatementBinOp)
+BinaryOperation - The binary operation class
+ExecuteBinOp - Executing/Running a binary operation and returns the result
+NewSingleBinOp - Make a new Single binary operation(means that just a single value)
+NewStatementBinOp - Make a new Statement binary operation(means that a binary operation class that holds the left bin op, the right bin op and the bin op code)
+
 -----------------
 
 ## Example
