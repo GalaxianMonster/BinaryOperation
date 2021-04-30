@@ -7,8 +7,8 @@
 
 ## Setup
 
-#### 1: Get either the lib or the source
-#### 2: Include it in your project
+1. Get either the lib or the source
+2. Include it in your project
 
 ------------------
 
